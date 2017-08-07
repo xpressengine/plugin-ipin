@@ -1,0 +1,32 @@
+{
+  "name": "xpressengine-plugin/ipin",
+  "description": "ipin",
+  "keywords": ["authenticate", "ipin"],
+  "version": "0.1.0",
+  "support": {
+    "email": "developers@xpressengine.com"
+  },
+  "authors": [
+    {
+      "name": "XE Developers",
+      "email": "developers@xpressengine.com",
+      "homepage": "http://xpressengine.io",
+      "role": "Developer"
+    }
+  ],
+  "license": "LGPL-2.1",
+  "type": "xpressengine-plugin",
+  "extra": {
+    "xpressengine": {
+      "title": "I-PIN",
+      "icon": ""
+    }
+  },
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Xpressengine\\Plugins\\Ipin\\": "src/"
+    }
+  }
+}
